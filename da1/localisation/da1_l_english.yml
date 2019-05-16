@@ -1,0 +1,48 @@
+﻿l_english:
+ # Vassalage Policies [for vassals]
+ enforce_vassalage:0 "Vassalage Policies"
+ enforce_vassalage_title:0 "Enforce Vassalage Policies"
+ enforce_vassalage_desc: "Demand that §Y[From.Monarch.GetName]§! of §Y[From.GetName]§! allows Enforced Vassalage Policies which will allow us further control over our Vassal."
+ enforce_vassalage_tooltip: "Demand Enforced Vassalage Policies!"
+ enforce_vassalage_alert_tooltip: "A demand that we allow Enforced Vassalage Policies of our nation!"
+ enforce_vassalage_dialog:0 "Our overlord §Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§! of §Y[Root.Monarch.GetAdjective]§! has demanded that we allow Enforced Vassalage Policies which will allow them to further control our nation!"
+ # Union Policies [for personal unions & subjects]
+ enforce_subject:0 "Enforce Subjection on §Y[From.Monarch.GetName]§!"
+ enforce_subject_title:0 "Enforce Subjection Policies"
+ enforce_subject_desc:0 "Our glorious ruler §Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§! of §Y[Root.GetName]§! demands to subject their lesser union partner of §Y[From.GetName]§! to new policies that allow the nation of §Y[Root.GetName]§! to have more control over the subject of §Y[From.GetName]§! and reduce the penalties we currently suffer!"
+ enforce_subject_tooltip:0 "Demand to allow Enforced Subjection Policies!"
+ enforce_subject_alert_tooltip: "A demand that we allow Enforced Subjection between our nations!"
+ enforce_subject_dialog:0 "Our glorious overlord §Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§! of §Y[Root.Monarch.GetAdjective]§! has demanded that we allow enforced subjection policies which will allow them to further control our nation!"
+ # Colonial Policies
+ 
+ # Events
+ da1.1:0 "Enforced Subjection Policies"
+ da1.1.t:0 "Enforced Subjection Policies"
+ da1.1.d:0 "We have Subjected our subject to Enforced Policies allowing for our nation to rule over them cheaper but we have to make a choice of how far our new policies shall go.\n\nHow shall we handle this?"
+ da1.1.1:0 "Simple Policies"
+ da1.1.2:0 "Moderate Policies"
+ da1.1.3:0 "Aggressive Policies"
+ da1.1.4:0 "Back down."
+ da1.2:0 "Enforced Vassalage Policies"
+ da1.2.t:0 "Enforced Vassalage Policies"
+ da1.2.d:0 "We have begun enforced vassalage upon our vassal allowing for further control at a cheaper cost but we have to make a choice of how far our new policies shall go.\n\nHow shall we handle this?"
+ da1.2.1:0 "Simple Vassalage Policies"
+ da1.2.2:0 "Moderate Vassalage Policies"
+ da1.2.3:0 "Back down."
+ # Tool-tips
+ # Opinion Modifiers
+ da1_subjection_policies_simple_opinion:0 "Simple Subjection Policies"
+ da1_subjection_policies_moderate_opinion:0 "Moderate Subjection Policies"
+ da1_subjection_policies_aggressive_opinion:0 "Strict Subjection Policies"
+ da1_subjection_policies_positive:0 "Decided Against Subjection Policies"
+ # Static Modifiers
+ da1_subject_simple_policies:0 "Simple Subject Policies"
+ da1_subject_moderate_policies:0 "Moderate Subject Policies"
+ da1_subject_aggressive_policies:0 "Aggressive Subject Policies"
+ da1_vassalage_simple_policies:0 "Simple Vassalage Policies"
+ da1_vassalage_moderate_policies:0 "Moderate Vassalage Policies"
+ da1_vassalage_policies_positive:0 "Decided Against Vassalage Policies"
+ 
+ # Other Localization
+ subjected_policies:0 "Subjected Policies"
+ subjected_policies_desc:0 "We have subjected our primary concern subject so that it is vastly cheaper to control them."
