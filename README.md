@@ -18,6 +18,4 @@
 
 [h1]This mod will ALWAYS stay updated! [/h1]
 
-[h1]Any planned mods, along with this mod is subject to [url=https://www.checkforplagiarism.net/plagiarism-law]Plagiarism Law[/url] and [url=https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810]Steam Rules, Guidelines [/url]and [url=http://store.steampowered.com/online_conduct/]Conduct.[/url] I would appreciate being contacted should you wish to make a similar mod to this or any other. If I discover any similar mods which are clearly blatant plagiarism I will contact steam and file a complaint.[/h1]
-
 [img=http://i.imgur.com/Uf8Z21n.png][/img]
