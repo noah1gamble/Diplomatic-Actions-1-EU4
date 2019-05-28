@@ -1,0 +1,339 @@
+###################################################
+#Diplomatic Actions 1 - Subjection Policies Events#
+###################################################
+
+namespace = da1_events
+
+#####################################
+#Vassalage Subjection Policies Event#
+#####################################
+	
+country_event = { 
+	id = da1.1
+	title = "da1.1.t"
+	desc = "da1.1.d"
+	picture = COURT_eventPicture
+
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	option = { #Simple Subjection Policies
+		name = "da1.1.1"
+		ai_chance = { factor = 50 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_vassal_subjection_policies_simple
+					duration = 3650  
+					hidden = no
+				}
+				add_prestige = -5
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_vassal_subjection_policies_simple_opinion
+					}
+				}
+			}			
+		}
+	option = { #Moderate Subjection Policies
+		name = "da1.1.2"
+		ai_chance = { factor = 45 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_vassal_subjection_policies_moderate
+					duration = 3650  
+					hidden = no
+				}
+			add_prestige = -10
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_vassal_subjection_policies_moderate_opinion
+					}
+				}
+			}			
+		}
+	option = { #Aggressive Subjection Policies
+		name = "da1.1.3"
+		ai_chance = { factor = 45 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_vassal_subjection_policies_moderate
+					duration = 3650  
+					hidden = no
+				}
+			add_prestige = -20
+			add_stability = -1
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_vassal_subjection_policies_aggressive_opinion
+					}
+				}
+			}			
+		}		
+	option = { #Harsh Subjection Policies
+		name = "da1.1.4"
+		ai_chance = { factor = 15 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_vassal_subjection_policies_moderate
+					duration = 3650  
+					hidden = no
+				}
+			add_prestige = -30
+			add_stability = -2
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_vassal_subjection_policies_harsh_opinion
+					}
+				}
+			}			
+		}		
+	option = { #Back down
+		name = "da1.1.5"
+		ai_chance = { factor = 5 }
+			add_prestige = -5
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_vassal_policies_back_off
+					}
+				}
+			}
+		}		
+	}
+
+###################################
+#Subject Subjection Policies Event#
+###################################
+
+country_event = { 
+	id = da1.2
+	title = "da1.2.t"
+	desc = "da1.2.d"
+	picture = DIPLOMACY_eventPicture
+
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	option = { #Simple Policies
+		name = "da1.2.1"
+		ai_chance = { factor = 50 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_subject_simple_policies
+					duration = 18250  
+					hidden = no
+				}
+				add_prestige = -5
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_subjection_policies_simple_opinion
+					}
+				}
+			}			
+		}
+	option = { #Moderate Policies
+		name = "da1.2.2"
+		ai_chance = { factor = 30 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_subject_moderate_policies
+					duration = 18250  
+					hidden = no
+				}
+				add_prestige = -10
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_subjection_policies_moderate_opinion
+					}
+				}
+			}
+		}
+	option = { # Aggressive Policies
+		name = "da1.2.3"
+		ai_chance = { factor = 15 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_subject_aggressive_policies
+					duration = 18250  
+					hidden = no
+				}
+				add_prestige = -20
+				add_stability = -1
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_subjection_policies_aggressive_opinion
+					}
+				}
+			}			
+		}
+	option = { # Harsh Policies
+		name = "da1.2.3"
+		ai_chance = { factor = 15 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_subject_aggressive_policies
+					duration = 18250  
+					hidden = no
+				}
+				add_prestige = -30
+				add_stability = -2
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_subjection_policies_harsh_opinion
+					}
+				}
+			}			
+		}		
+	option = { # Back down
+		name = "da1.2.5"
+		ai_chance = { factor = 5 }
+				add_prestige = -5
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_subject_policies_back_off
+					}
+				}
+			}			
+		}		
+	}
+
+
+###################################
+#Colony Subjection Policies Event#
+###################################	
+
+country_event = { 
+	id = da1.3
+	title = "da1.3.t"
+	desc = "da1.3.d"
+	picture = COLONIZATION_eventPicture
+
+	fire_only_once = no
+	is_triggered_only = yes
+	
+	option = { #Simple Policies
+		name = "da1.3.1"
+		ai_chance = { factor = 27 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_colony_policies_simple
+					duration = 3650  
+					hidden = no
+				}
+				add_prestige = -5
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_colony_policies_simple_opinion
+					}
+				}
+			}			
+		}
+	option = { #Moderate Policies
+		name = "da1.3.2"
+		ai_chance = { factor = 22 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_colony_policies_moderate
+					duration = 3650  
+					hidden = no
+				}
+			add_prestige = -10
+			add_stability = -1
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_colony_policies_moderate_opinion
+					}
+				}
+			}			
+		}
+	option = { #Aggressive Policies
+		name = "da1.3.3"
+		ai_chance = { factor = 20 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_colony_policies_aggressive
+					duration = 3650  
+					hidden = no
+				}
+			add_prestige = -20
+			add_stability = -1
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_colony_policies_aggressive_opinion
+					}
+				}
+			}			
+		}
+	option = { #Harsh Policies
+		name = "da1.3.2"
+		ai_chance = { factor = 17 }
+			ROOT = {
+				add_country_modifier = { 
+					name = da1_colony_policies_harsh
+					duration = 3650  
+					hidden = no
+				}
+			add_prestige = -10
+			add_stability = -1
+			}
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_colony_policies_harsh_opinion
+					}
+				}
+			}			
+		}		
+	option = { #Back down
+		name = "da1.3.5"
+		ai_chance = { factor = 3 }
+			add_prestige = -20
+			FROM = {
+				FROM = {
+					add_opinion = {
+						who = ROOT
+						modifier = da1_colony_policies_back_off
+					}
+				}
+			}
+		}		
+	}
+	
+	

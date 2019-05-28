@@ -1,26 +1,89 @@
-#Static Modifiers Written by JihadiJackass
+######################################
+#Subjection Policies Static Modifiers#
+######################################
 
-da1_subject_simple_policies = {
+#Vassalage Subjection Policies
+
+da1_vassal_policies_simple = {
 	diplomatic_upkeep = 1
+	diplomatic_reputation = 2
+}
+
+da1_vassal_policies_moderate = {
+	diplomatic_upkeep = 2
+	diplomatic_reputation = 0.5
+}
+
+da1_vassal_policies_aggressive
+	diplomatic_upkeep = 3
+	diplomatic_reputation = -1
+	reduced_liberty_desire = 3.5
+}
+
+da1_vassal_policies_harsh = {
+	diplomatic_upkeep = 5
+	diplomatic_reputation = -2.5
+	reduced_liberty_desire = -5
+}
+
+#Subject Subjection Policies
+
+da1_subject_policies_simple = {
+	diplomatic_upkeep = 1
+	diplomatic_reputation = 2.5
 	reduced_liberty_desire = 5
 }
 
-da1_subject_moderate_policies = {
+da1_subject_policies_moderate = {
 	diplomatic_upkeep = 2
-	diplomatic_reputation = -1
+	diplomatic_reputation = 0.25
 }
 
-da1_subject_aggressive_policies = {
+da1_subject_policies_aggressive = {
 	diplomatic_upkeep = 4
-	reduced_liberty_desire = 10
 	diplomatic_reputation = -2
+	reduced_liberty_desire = -10
 }
 
-da1_vassalage_simple_policies = {
+da1_subject_policies_harsh = {
+	diplomatic_upkeep = 5
+	diplomatic_reputation = -3.5
+	reduced_liberty_desire = -25
+}
+
+#Colony Subjection Policies
+
+da1_colony_policies_simple = {
 	diplomatic_upkeep = 1
+	global_colonial_growth = 20
+	native_uprising_chance = -0.50
+	native_assimilation = 0.40
+	expel_minorities_cost = -0.5
+	range = 1.0
 }
 
-da1_vassalage_moderate_policies = {
-	diplomatic_upkeep = 2
+da1_colony_policies_moderate {
+	global_colonial_growth = 10
+	native_uprising_chance = -0.20
+	native_assimilation = 0.40
+	expel_minorities_cost = -0.5
+	range = 0.50
+}
+
+da1_colony_policies_aggressive {
+	diplomatic_upkeep = 3
+	global_colonial_growth = 20
+	native_uprising_chance = 0.10
+	native_assimilation = 0.10
+	expel_minorities_cost = 0.10
+}
+
+da1_colony_policies_harsh {
+	diplomatic_upkeep = 5
+	global_colonial_growth = 20
+	native_uprising_chance = 0.25
+	native_assimilation = -0.25
+	expel_minorities_cost = -0.5
+	range = -1.0
 }
 

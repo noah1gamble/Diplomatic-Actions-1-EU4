@@ -1,34 +1,84 @@
-da1_subjection_policies_simple_opinion = {
-	opinion = -10
-	yearly_decay = 5
-}
+#######################################
+#Subjection Policies Opinion Modifiers#
+#######################################
 
-da1_subjection_policies_moderate_opinion = {
-	opinion = -50
-	yearly_decay = 5	
-}
+#Vassalage Subjection Policies
 
-da1_subjection_policies_aggressive_opinion = {
-	opinion = -100
-	yearly_decay = 5	
-}
-
-da1_subjection_policies_positive = {
-	opinion = 10
-	yearly_decay = 5	
-}
-
-da1_vassalage_policies_simple_opinion = {
+da1_vassal_policies_simple_opinion = {
 	opinion = -25
 	yearly_decay = 5	
 }
 
-da1_vassalage_policies_moderate_opinion = {
-	opinion = -70
+da1_vassal_policies_moderate_opinion = {
+	opinion = -55
 	yearly_decay = 5	
 }
 
-da1_vassalage_policies_positive = {
+da1_vassal_policies_aggressive_opinion = {
+	opinion = -80
+	yearly_decay = 5	
+}
+
+da1_vassal_policies_harsh_opinion = {
+	opinion = -100
+	yearly_decay = 5	
+}
+
+da1_vassal_policies_back_off = {
 	opinion = 5
+	yearly_decay = 5	
+}
+
+#Subject Subjection Policies
+
+da1_subject_policies_simple_opinion = {
+	opinion = -10
+	yearly_decay = 5
+}
+
+da1_subject_policies_moderate_opinion = {
+	opinion = -50
+	yearly_decay = 5	
+}
+
+da1_subject_policies_aggressive_opinion = {
+	opinion = -80
+	yearly_decay = 5	
+}
+
+da1_subject_policies_harsh_opinion = {
+	opinion = -100
+	yearly_decay = 5	
+}
+
+da1_subject_policies_back_off = {
+	opinion = 10
+	yearly_decay = 5	
+}
+
+#Colony Subjection Policies
+
+da1_colony_policies_simple_opinion = {
+	opinion = -10
+	yearly_decay = 5		
+}
+
+da1_colony_policies_moderate_opinion = {
+	opinion = -25
+	yearly_decay = 5		
+}
+
+da1_colony_policies_aggressive_opinion = {
+	opinion = -50
+	yearly_decay = 5		
+}
+
+da1_colony_policies_harsh_opinion = {
+	opinion = -80
+	yearly_decay = 5	
+}
+
+da1_colony_policies_back_off = {
+	opinion = 20
 	yearly_decay = 5	
 }

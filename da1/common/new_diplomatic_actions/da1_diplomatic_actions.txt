@@ -1,16 +1,13 @@
 
 
-enforce_vassalage = {
-    category = great_powers     
+da1_vassal_policies_diplo = {
+    category = influence     
     
     alert_index = 3          
     
     require_acceptance = no
     
     is_visible = {
-		ROOT = {
-			is_great_power = yes
-		}
 		FROM = {
 			vassal_of = ROOT
 		}
@@ -26,36 +23,34 @@ enforce_vassalage = {
 		}
 		ROOT = { 
 			NOT = { 
-				has_country_modifier = da1_vassalage_simple_policies 
-				has_country_modifier = da1_vassalage_moderate_policies
-			}
-		is_great_power = yes	
+				has_country_modifier = da1_vassal_policies_simple 
+				has_country_modifier = da1_vassal_policies_moderate
+				has_country_modifier = da1_vassal_policies_aggressive 
+				has_country_modifier = da1_vassal_policies_harsh 
+			}	
 		}
 	}
 	
-	alert_tooltip = enforce_vassalage_tooltip
+	alert_tooltip = da1_vassal_policies_diplo_tooltip
 	
     on_accept = {
 			ROOT = {
 				country_event = { 
-					id = da1.2
+					id = da1.1
 				}				
 			}
 		}		
 	
 	}
 	
-enforce_subject = {
-    category = great_powers     
+da1_subject_policies_diplo = {
+    category = influence     
     
     alert_index = 3          
     
     require_acceptance = no
     
     is_visible = {
-		ROOT = {
-			is_great_power = yes
-		}
 		FROM = {
 			junior_union_with = ROOT
 		}		
@@ -71,21 +66,64 @@ enforce_subject = {
 			}
 		ROOT = { 
 			NOT = { 
-				has_country_modifier = da1_subject_simple_policies 
-				has_country_modifier = da1_subject_moderate_policies
-				has_country_modifier = da1_subject_aggressive_policies
+				has_country_modifier = da1_subject_policies_simple 
+				has_country_modifier = da1_subject_policies_moderate
+				has_country_modifier = da1_subject_policies_aggressive
+				has_country_modifier = da1_subject_policies_harsh
 			}
-		is_great_power = yes	
 		}
 	}
 	
-	alert_tooltip = enforce_subject_tooltip
+	alert_tooltip = da1_subject_policies_diplo_tooltip
 	
     on_accept = {
 			ROOT = {
 				country_event = { 
-					id = da1.1
+					id = da1.2
 				}				
 			}
 		}
 	}
+	
+da1_colony_policies_diplo = {
+    category = influence     
+    
+    alert_index = 3          
+    
+    require_acceptance = no
+    
+    is_visible = {
+		FROM = {
+			is_colonial_nation_of = ROOT
+		}		
+    }
+	
+    is_allowed = {
+		AND = {
+			FROM = {
+					is_colonial_nation_of = ROOT
+				}
+			num_of_subjects = 1
+			num_of_free_diplomatic_relations = 0
+			}
+		ROOT = { 
+			NOT = { 
+				has_country_modifier = da1_colony_policies_simple 
+				has_country_modifier = da1_colony_policies_moderate
+				has_country_modifier = da1_colony_policies_aggressive
+				has_country_modifier = da1_colony_policies_harsh
+			}	
+		}
+	}
+	
+	alert_tooltip = da1_colony_policies_diplo_tooltip
+	
+    on_accept = {
+			ROOT = {
+				country_event = { 
+					id = da1.3
+				}				
+			}
+		}
+	}	
+	
