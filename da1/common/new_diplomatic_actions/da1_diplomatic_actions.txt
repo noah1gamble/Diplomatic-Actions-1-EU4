@@ -25,8 +25,7 @@ da1_vassal_policies_diplo = {
 		AND = {
 			FROM = {
 				vassal_of = ROOT
-			}	
-			num_of_vassals = 1
+			}
 			num_of_free_diplomatic_relations = 0
 		}
 		ROOT = { 

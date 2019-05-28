@@ -14,7 +14,7 @@ da1_vassal_policies_moderate = {
 	diplomatic_reputation = 0.5
 }
 
-da1_vassal_policies_aggressive
+da1_vassal_policies_aggressive = {
 	diplomatic_upkeep = 3
 	diplomatic_reputation = -1
 	reduced_liberty_desire = 3.5
@@ -62,7 +62,7 @@ da1_colony_policies_simple = {
 	range = 0.20
 }
 
-da1_colony_policies_moderate {
+da1_colony_policies_moderate = {
 	global_colonial_growth = 10
 	native_uprising_chance = -0.20
 	native_assimilation = 0.40
@@ -70,7 +70,7 @@ da1_colony_policies_moderate {
 	range = 0.10
 }
 
-da1_colony_policies_aggressive {
+da1_colony_policies_aggressive = {
 	diplomatic_upkeep = 3
 	global_colonial_growth = -5
 	native_uprising_chance = 0.10
@@ -79,7 +79,7 @@ da1_colony_policies_aggressive {
 	range = 0.05
 }
 
-da1_colony_policies_harsh {
+da1_colony_policies_harsh = {
 	diplomatic_upkeep = 5
 	global_colonial_growth = -15
 	native_uprising_chance = 0.25

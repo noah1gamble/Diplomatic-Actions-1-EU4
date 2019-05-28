@@ -2,7 +2,6 @@
 #Diplomatic Actions 1 - Subjection Policies Events#
 ###################################################
 
-namespace = da1_events
 
 #####################################
 #Vassalage Subjection Policies Event#
