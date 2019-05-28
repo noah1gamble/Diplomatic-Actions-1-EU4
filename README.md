@@ -7,9 +7,12 @@
 [img=http://i.imgur.com/Uf8Z21n.png][/img]
 [img=http://i.imgur.com/NQRPEuT.png][/img] [h1][b]
 ~Allows an overlord to Enforce Subjection policies upon a Personal Union which allows positive & negative effects to your diplomacy, making it cheaper to own Personal Unions, at the cost of various effects such as Prestige & Stability.
+
 ~Allows an overlord to Enforce Vassalage policies upon a vassal which allows positive & negative effects to your diplomacy, making it cheaper to own vassals, at the cost of various effects such as Prestige & Stability.
 [/b][/h1]
 
+~Allows a colonial overlord to Enforce Colonial policies upon a colony which allows positive & negative effects to your diplomacy, making it cheaper to own vassals, at the cost of various effects such as Prestige & Stability.
+[/b][/h1]
 [img=http://i.imgur.com/Uf8Z21n.png][/img]
 [img=http://i.imgur.com/1SbgfCk.png][/img]
 
