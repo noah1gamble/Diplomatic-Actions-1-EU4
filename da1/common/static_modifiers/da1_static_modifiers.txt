@@ -55,35 +55,36 @@ da1_subject_policies_harsh = {
 
 da1_colony_policies_simple = {
 	diplomatic_upkeep = 1
-	global_colonial_growth = 20
+	global_colonial_growth = 30
 	native_uprising_chance = -0.50
 	native_assimilation = 0.40
-	expel_minorities_cost = -0.5
-	range = 1.0
+	expel_minorities_cost = -0.4
+	range = 0.20
 }
 
 da1_colony_policies_moderate {
 	global_colonial_growth = 10
 	native_uprising_chance = -0.20
 	native_assimilation = 0.40
-	expel_minorities_cost = -0.5
-	range = 0.50
+	expel_minorities_cost = -0.1
+	range = 0.10
 }
 
 da1_colony_policies_aggressive {
 	diplomatic_upkeep = 3
-	global_colonial_growth = 20
+	global_colonial_growth = -5
 	native_uprising_chance = 0.10
 	native_assimilation = 0.10
 	expel_minorities_cost = 0.10
+	range = 0.05
 }
 
 da1_colony_policies_harsh {
 	diplomatic_upkeep = 5
-	global_colonial_growth = 20
+	global_colonial_growth = -15
 	native_uprising_chance = 0.25
 	native_assimilation = -0.25
-	expel_minorities_cost = -0.5
-	range = -1.0
+	expel_minorities_cost = 0.5
+	range = -0.15
 }
 

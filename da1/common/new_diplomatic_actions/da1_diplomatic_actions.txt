@@ -11,6 +11,14 @@ da1_vassal_policies_diplo = {
 		FROM = {
 			vassal_of = ROOT
 		}
+		ROOT = { 
+			NOT = { 
+				has_country_modifier = da1_vassal_policies_simple 
+				has_country_modifier = da1_vassal_policies_moderate
+				has_country_modifier = da1_vassal_policies_aggressive 
+				has_country_modifier = da1_vassal_policies_harsh 
+			}	
+		}		
     }
 	
     is_allowed = {
@@ -53,6 +61,14 @@ da1_subject_policies_diplo = {
     is_visible = {
 		FROM = {
 			junior_union_with = ROOT
+		}
+		ROOT = { 
+			NOT = { 
+				has_country_modifier = da1_subject_policies_simple 
+				has_country_modifier = da1_subject_policies_moderate
+				has_country_modifier = da1_subject_policies_aggressive
+				has_country_modifier = da1_subject_policies_harsh
+			}
 		}		
     }
 	
@@ -94,16 +110,23 @@ da1_colony_policies_diplo = {
     
     is_visible = {
 		FROM = {
-			is_colonial_nation_of = ROOT
+			is_subject_of_type = colony
+		}
+		ROOT = { 
+			NOT = { 
+				has_country_modifier = da1_colony_policies_simple 
+				has_country_modifier = da1_colony_policies_moderate
+				has_country_modifier = da1_colony_policies_aggressive
+				has_country_modifier = da1_colony_policies_harsh
+			}	
 		}		
     }
 	
     is_allowed = {
 		AND = {
 			FROM = {
-					is_colonial_nation_of = ROOT
-				}
-			num_of_subjects = 1
+				is_subject_of_type = colony
+			}
 			num_of_free_diplomatic_relations = 0
 			}
 		ROOT = { 

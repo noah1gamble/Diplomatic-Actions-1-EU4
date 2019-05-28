@@ -132,7 +132,7 @@ country_event = {
 		ai_chance = { factor = 50 }
 			ROOT = {
 				add_country_modifier = { 
-					name = da1_subject_simple_policies
+					name = da1_subject_policies_simple
 					duration = 18250  
 					hidden = no
 				}
@@ -152,7 +152,7 @@ country_event = {
 		ai_chance = { factor = 30 }
 			ROOT = {
 				add_country_modifier = { 
-					name = da1_subject_moderate_policies
+					name = da1_subject_policies_moderate
 					duration = 18250  
 					hidden = no
 				}
@@ -172,7 +172,7 @@ country_event = {
 		ai_chance = { factor = 15 }
 			ROOT = {
 				add_country_modifier = { 
-					name = da1_subject_aggressive_policies
+					name = da1_subject_policies_aggressive
 					duration = 18250  
 					hidden = no
 				}
@@ -189,11 +189,11 @@ country_event = {
 			}			
 		}
 	option = { # Harsh Policies
-		name = "da1.2.3"
+		name = "da1.2.4"
 		ai_chance = { factor = 15 }
 			ROOT = {
 				add_country_modifier = { 
-					name = da1_subject_aggressive_policies
+					name = da1_subject_policies_harsh
 					duration = 18250  
 					hidden = no
 				}
@@ -301,7 +301,7 @@ country_event = {
 			}			
 		}
 	option = { #Harsh Policies
-		name = "da1.3.2"
+		name = "da1.3.4"
 		ai_chance = { factor = 17 }
 			ROOT = {
 				add_country_modifier = { 
