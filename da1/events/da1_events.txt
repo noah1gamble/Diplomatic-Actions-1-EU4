@@ -22,7 +22,7 @@ country_event = {
 		ai_chance = { factor = 50 }
 			ROOT = {
 				add_country_modifier = { 
-					name = da1_vassal_subjection_policies_simple
+					name = da1_vassal_policies_simple
 					duration = 3650  
 					hidden = no
 				}
@@ -32,7 +32,7 @@ country_event = {
 				FROM = {
 					add_opinion = {
 						who = ROOT
-						modifier = da1_vassal_subjection_policies_simple_opinion
+						modifier = da1_vassal_policies_simple_opinion
 					}
 				}
 			}			
@@ -42,7 +42,7 @@ country_event = {
 		ai_chance = { factor = 45 }
 			ROOT = {
 				add_country_modifier = { 
-					name = da1_vassal_subjection_policies_moderate
+					name = da1_vassal_policies_moderate
 					duration = 3650  
 					hidden = no
 				}
@@ -52,7 +52,7 @@ country_event = {
 				FROM = {
 					add_opinion = {
 						who = ROOT
-						modifier = da1_vassal_subjection_policies_moderate_opinion
+						modifier = da1_vassal_policies_moderate_opinion
 					}
 				}
 			}			
@@ -62,7 +62,7 @@ country_event = {
 		ai_chance = { factor = 45 }
 			ROOT = {
 				add_country_modifier = { 
-					name = da1_vassal_subjection_policies_moderate
+					name = da1_vassal_policies_aggressive
 					duration = 3650  
 					hidden = no
 				}
@@ -73,7 +73,7 @@ country_event = {
 				FROM = {
 					add_opinion = {
 						who = ROOT
-						modifier = da1_vassal_subjection_policies_aggressive_opinion
+						modifier = da1_vassal_policies_aggressive_opinion
 					}
 				}
 			}			
@@ -83,7 +83,7 @@ country_event = {
 		ai_chance = { factor = 15 }
 			ROOT = {
 				add_country_modifier = { 
-					name = da1_vassal_subjection_policies_moderate
+					name = da1_vassal_policies_harsh
 					duration = 3650  
 					hidden = no
 				}
@@ -94,7 +94,7 @@ country_event = {
 				FROM = {
 					add_opinion = {
 						who = ROOT
-						modifier = da1_vassal_subjection_policies_harsh_opinion
+						modifier = da1_vassal_policies_harsh_opinion
 					}
 				}
 			}			
@@ -142,7 +142,7 @@ country_event = {
 				FROM = {
 					add_opinion = {
 						who = ROOT
-						modifier = da1_subjection_policies_simple_opinion
+						modifier = da1_subject_policies_simple_opinion
 					}
 				}
 			}			
@@ -162,7 +162,7 @@ country_event = {
 				FROM = {
 					add_opinion = {
 						who = ROOT
-						modifier = da1_subjection_policies_moderate_opinion
+						modifier = da1_subject_policies_moderate_opinion
 					}
 				}
 			}
@@ -183,7 +183,7 @@ country_event = {
 				FROM = {
 					add_opinion = {
 						who = ROOT
-						modifier = da1_subjection_policies_aggressive_opinion
+						modifier = da1_subject_policies_aggressive_opinion
 					}
 				}
 			}			
@@ -204,7 +204,7 @@ country_event = {
 				FROM = {
 					add_opinion = {
 						who = ROOT
-						modifier = da1_subjection_policies_harsh_opinion
+						modifier = da1_subject_policies_harsh_opinion
 					}
 				}
 			}			
