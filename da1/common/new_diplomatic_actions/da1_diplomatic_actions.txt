@@ -11,7 +11,7 @@ da1_vassal_policies_diplo = {
 		FROM = {
 			vassal_of = ROOT
 		}
-		ROOT = { 
+		FROM = { 
 			NOT = { 
 				has_country_modifier = da1_vassal_policies_simple 
 				has_country_modifier = da1_vassal_policies_moderate
@@ -28,7 +28,7 @@ da1_vassal_policies_diplo = {
 			}
 			num_of_free_diplomatic_relations = 0
 		}
-		ROOT = { 
+		FROM = { 
 			NOT = { 
 				has_country_modifier = da1_vassal_policies_simple 
 				has_country_modifier = da1_vassal_policies_moderate
@@ -61,7 +61,7 @@ da1_subject_policies_diplo = {
 		FROM = {
 			junior_union_with = ROOT
 		}
-		ROOT = { 
+		FROM = { 
 			NOT = { 
 				has_country_modifier = da1_subject_policies_simple 
 				has_country_modifier = da1_subject_policies_moderate
@@ -79,7 +79,7 @@ da1_subject_policies_diplo = {
 			num_of_subjects = 1
 			num_of_free_diplomatic_relations = 0
 			}
-		ROOT = { 
+		FROM = { 
 			NOT = { 
 				has_country_modifier = da1_subject_policies_simple 
 				has_country_modifier = da1_subject_policies_moderate
@@ -109,9 +109,10 @@ da1_colony_policies_diplo = {
     
     is_visible = {
 		FROM = {
+			is_subject_of = ROOT
 			is_subject_of_type = colony
 		}
-		ROOT = { 
+		FROM = { 
 			NOT = { 
 				has_country_modifier = da1_colony_policies_simple 
 				has_country_modifier = da1_colony_policies_moderate
@@ -128,7 +129,7 @@ da1_colony_policies_diplo = {
 			}
 			num_of_free_diplomatic_relations = 0
 			}
-		ROOT = { 
+		FROM = { 
 			NOT = { 
 				has_country_modifier = da1_colony_policies_simple 
 				has_country_modifier = da1_colony_policies_moderate
