@@ -34,6 +34,8 @@ da1_vassal_policies_diplo = {
 				has_country_modifier = da1_vassal_policies_moderate
 				has_country_modifier = da1_vassal_policies_aggressive 
 				has_country_modifier = da1_vassal_policies_harsh 
+				has_country_modifier = da1_subject_policies_aggressive
+				has_country_modifier = da1_subject_policies_harsh
 			}	
 		}
 	}
@@ -85,6 +87,8 @@ da1_subject_policies_diplo = {
 				has_country_modifier = da1_subject_policies_moderate
 				has_country_modifier = da1_subject_policies_aggressive
 				has_country_modifier = da1_subject_policies_harsh
+				has_country_modifier = da1_vassal_policies_aggressive 
+				has_country_modifier = da1_vassal_policies_harsh 
 			}
 		}
 	}
@@ -135,6 +139,10 @@ da1_colony_policies_diplo = {
 				has_country_modifier = da1_colony_policies_moderate
 				has_country_modifier = da1_colony_policies_aggressive
 				has_country_modifier = da1_colony_policies_harsh
+				has_country_modifier = da1_subject_policies_aggressive
+				has_country_modifier = da1_subject_policies_harsh
+				has_country_modifier = da1_vassal_policies_aggressive 
+				has_country_modifier = da1_vassal_policies_harsh 
 			}	
 		}
 	}

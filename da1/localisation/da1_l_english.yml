@@ -105,10 +105,10 @@
  da1_subject_policies_aggressive:0 "Aggressive Subject Policies"
  da1_subject_policies_harsh:0 "Harsh Subject Policies"
  
- da1_colony_policies_simple:0 "Simple Colonial Policies"
- da1_colony_policies_moderate:0 "Moderate Colonial Policies"
- da1_colony_policies_aggressive:0 "Aggressive Colonial Policies"
- da1_colony_policies_harsh:0 "Harsh Colonial Policies"
+ da1_colony_policies_simple:0 "Simple Subject Policies"
+ da1_colony_policies_moderate:0 "Moderate Subject Policies"
+ da1_colony_policies_aggressive:0 "Aggressive Subject Policies"
+ da1_colony_policies_harsh:0 "Harsh Subject Policies"
  
     #######
     #Other#
