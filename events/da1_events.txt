@@ -113,9 +113,9 @@ country_event = {
 		}		
 	}
 
-###################################
-#Subject Subjection Policies Event#
-###################################
+#################################
+#Union Subjection Policies Event#
+#################################
 
 country_event = { 
 	id = da1.2

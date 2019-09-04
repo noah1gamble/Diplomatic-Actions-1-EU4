@@ -77,19 +77,19 @@
  da1_vassal_policies_moderate_opinion:0 "Moderate Vassal Policies"
  da1_vassal_policies_aggressive_opinion:0 "Aggressive Vassal Policies"
  da1_vassal_policies_harsh_opinion:0 "Harsh Vassal Policies"
- da1_vassal_policies_back_off:0 "Decided Against Vassal Policies"
+ da1_vassal_policies_back_off:0 "Decided Against Further Vassal Policies"
     
  da1_subject_policies_simple_opinion:0 "Simple Subjection Policies"
  da1_subject_policies_moderate_opinion:0 "Moderate Subjection Policies"
  da1_subject_policies_aggressive_opinion:0 "Aggressive Subjection Policies"
  da1_subject_policies_harsh_opinion:0 "Harsh Subjection Policies"
- da1_subject_policies_back_off:0 "Decided Against Subject Policies"
+ da1_subject_policies_back_off:0 "Decided Against Further Subject Policies"
  
  da1_colony_policies_simple_opinion:0 "Simple Subjection Policies"
  da1_colony_policies_moderate_opinion:0 "Moderate Subjection Policies"
  da1_colony_policies_aggressive_opinion:0 "Aggressive Subjection Policies"
  da1_colony_policies_harsh_opinion:0 "Harsh Subjection Policies"
- da1_colony_policies_back_off:0 "Decided Against Subject Policies"
+ da1_colony_policies_back_off:0 "Decided Against Further Colonial Policies"
  
     ##################
     #Static Modifiers#
